@@ -1,4 +1,4 @@
-version = '2.2.0'
+version = '3.0.0'
 
 Pod::Spec.new do |spec|
   spec.name                   = 'PlexyWeChatPayInternal'
@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.homepage               = 'https://plexy.com'
   spec.authors                = { 'Plexy' => 'support@plexy.com' }
   spec.summary                = 'Provides an XCFramework around the static library for more convenient importing of the WeChat Pay SDK.'
-  spec.source                 = { :git => 'https://github.com/plexy/plexy-wechatpay-ios.git', :tag => version }
+  spec.source                 = { :git => 'https://github.com/plexypay/plexy-wechatpay-ios.git', :tag => version }
   spec.vendored_frameworks    = 'PlexyWeChatPayInternal.xcframework'
   spec.ios.deployment_target  = '12.0'
 
