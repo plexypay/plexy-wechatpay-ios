@@ -1,4 +1,4 @@
-name: Publish AdyenWeChatPayInternal.podspec
+name: Publish PlexyWeChatPayInternal.podspec
 on: [workflow_dispatch]
 jobs:
 
@@ -12,9 +12,9 @@ jobs:
       with:
         xcode-version: latest-stable
 
-    - name: Publish AdyenWeChatPayInternal.podspec
+    - name: Publish PlexyWeChatPayInternal.podspec
       run: |
         gem install cocoapods
-        pod trunk push AdyenWeChatPayInternal.podspec --allow-warnings
+        pod trunk push PlexyWeChatPayInternal.podspec --allow-warnings
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}

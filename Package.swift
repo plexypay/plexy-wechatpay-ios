@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "AdyenWeChatPayInternal",
+    name: "PlexyWeChatPayInternal",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "AdyenWeChatPayInternal",
-            targets: ["AdyenWeChatPayInternal"])
+            name: "PlexyWeChatPayInternal",
+            targets: ["PlexyWeChatPayInternal"])
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "AdyenWeChatPayInternal",
-            path: "AdyenWeChatPayInternal.xcframework")
+            name: "PlexyWeChatPayInternal",
+            path: "PlexyWeChatPayInternal.xcframework")
     ]
 )

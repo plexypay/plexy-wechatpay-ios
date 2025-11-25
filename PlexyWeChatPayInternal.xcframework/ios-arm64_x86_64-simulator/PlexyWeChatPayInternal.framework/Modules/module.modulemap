@@ -1,0 +1,11 @@
+framework module PlexyWeChatPayInternal {
+  umbrella header "PlexyWeChatPayInternal.h"
+  export *
+
+  module * { export * }
+}
+
+module PlexyWeChatPayInternal.Swift {
+  header "PlexyWeChatPayInternal-Swift.h"
+  requires objc
+}
